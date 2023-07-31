@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Headers and prompts -->
+    <string name="app_name">Plarty™</string>
+    <string name="month_header_label">My Month</string>
+    <string name="week_header_label">My Week</string>
+    <string name="day_header_label">My Day</string>
+    <string name="add_event_label">Add Event</string>
+    <string name="events_header_label">My Events</string>
+    <string name="schedule_label">My Schedule</string>
+    <string name="save_button_label">Save</string>
+    <string name="ends_label">Ends</string>
+    <string name="starts_label">Starts</string>
+    <string name="location_label">Location</string>
+    <string name="location_hint">Enter location…</string>
+    <string name="name_hint">Enter name…</string>
+    <string name="name_label">Name of event</string>
+    <string name="new_event_header_label">New Event</string>
+    <string name="profile_label">Profile</string>
+    <string name="active_hours_label">My Active Hours</string>
+    <string name="view_invitations_button">Invitations</string>
+    <string name="user_profile_label">My Info</string>
+    <string name="invite_label">Set my own time</string>
+    <string name="decline_invite_label">Decline</string>
+    <string name="maybe_invite_label">Maybe</string>
+    <string name="accept_invite_label">Accept</string>
+    <string name="delete_label">Delete</string>
+    <string name="invite_users_label">Edit invitees</string>
+    <string name="invitations_label">Invitations</string>
+    <string name="set_active_prompt">Set new</string>
+    <string name="active_times_prompt">Schedule my events between</string>
+    <string name="invite_users_prompt">Who\'s invited?</string>
+    <string name="skip_label">Skip</string>
+    <string name="TodayButton">Today</string>
+    <string name="time_list_prompt">These times would work:</string>
+
+    <!-- Time labels -->
+    <string name="_3pm">3 PM</string>
+    <string name="_4pm">4 PM</string>
+    <string name="_2pm">2 PM</string>
+    <string name="_1pm">1 PM</string>
+    <string name="_12pm">12 PM</string>
+    <string name="_11am">11 AM</string>
+    <string name="_10am">10 AM</string>
+    <string name="_9am">9 AM</string>
+    <string name="_8am">8 AM</string>
+    <string name="_6pm">6 PM</string>
+    <string name="_7pm">7 PM</string>
+    <string name="_8pm">8 PM</string>
+    <string name="_9pm">9 PM</string>
+    <string name="_10pm">10 PM</string>
+    <string name="_11pm">11 PM</string>
+    <string name="_12am">12 AM</string>
+    <string name="_1am">1 AM</string>
+    <string name="_2am">2 AM</string>
+    <string name="_3am">3 AM</string>
+    <string name="_4am">4 AM</string>
+    <string name="_5am">5 AM</string>
+    <string name="_6am">6 AM</string>
+    <string name="_7am">7 AM</string>
+    <string name="_5pm">5 PM</string>
+
+    <!-- Date labels -->
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tues</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="sunday">Sun</string>
+</resources>

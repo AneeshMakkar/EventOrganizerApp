@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="@color/color_primary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/color_white"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:theme="@style/header_text" />
+
+    <Button
+        android:id="@+id/view_schedule_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_accent"
+        android:text="@string/schedule_label"
+        android:theme="@style/time_label_text"
+        android:layout_margin="@dimen/button_margin"/>
+
+    <Button
+        android:id="@+id/view_events_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_accent"
+        android:text="@string/events_header_label"
+        android:theme="@style/time_label_text"
+        android:layout_margin="@dimen/button_margin"/>
+
+    <Button
+        android:id="@+id/view_profile_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/button_margin"
+        android:background="@color/color_accent"
+        android:text="@string/user_profile_label"
+        android:theme="@style/time_label_text" />
+
+</LinearLayout>

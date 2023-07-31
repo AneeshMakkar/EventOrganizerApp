@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/schedule_event_padding">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/active_times_prompt"/>
+
+        <TextView
+            android:id="@+id/active_times_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/prompt_text"
+            android:textSize="36sp"
+            android:textColor="@color/color_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/set_active_prompt"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TimePicker
+                android:id="@+id/set_active_start"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:timePickerMode="spinner"/>
+            <TimePicker
+                android:id="@+id/set_active_end"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:timePickerMode="spinner"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/save_active_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_button_label"
+            style="@style/profile_button"/>
+    </LinearLayout>
+
+</LinearLayout>

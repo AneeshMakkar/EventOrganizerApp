@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/header"/>
+
+    <ScrollView
+        android:id="@+id/daily_schedule_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/daily_schedule_labels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="@dimen/schedule_label_padding">
+
+                <TextView
+                    android:id="@+id/label_am12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_12am"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_am1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_1am"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_am2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_2am"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_am3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_3am"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_am4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_4am"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_am5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_5am"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_am6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_6am"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_am7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_7am"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_am8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_8am"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_am9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_9am"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_am10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_10am"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_am11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_11am"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_pm12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_12pm"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_pm1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_1pm"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_pm2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_2pm"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_pm3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_3pm"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_pm4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_4pm"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_pm5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_5pm"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_pm6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_6pm"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_pm7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_7pm"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_pm8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_8pm"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_pm9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_9pm"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_pm10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_10pm"
+                    android:theme="@style/time_label_text" />
+
+                <TextView
+                    android:id="@+id/label_pm11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/schedule_label_margin"
+                    android:text="@string/_11pm"
+                    android:theme="@style/time_label_text" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/daily_schedule_events"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@id/daily_schedule_labels"
+                android:orientation="vertical"
+                android:paddingHorizontal="@dimen/schedule_event_padding">
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

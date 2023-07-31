@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <include layout="@layout/header"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/profile_header"/>
+
+    <Button
+        android:id="@+id/view_invitations_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/profile_button"
+        android:text="@string/view_invitations_button"/>
+
+    <Button
+        android:id="@+id/active_hours_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/profile_button"
+        android:text="@string/active_hours_label"/>
+
+</LinearLayout>

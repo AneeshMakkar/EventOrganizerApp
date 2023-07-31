@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/3350_Plarty.iml" filepath="$PROJECT_DIR$/.idea/modules/3350_Plarty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/3350_Plarty.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/3350_Plarty.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/3350_Plarty.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/3350_Plarty.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/3350_Plarty.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/3350_Plarty.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/3350_Plarty.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/3350_Plarty.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

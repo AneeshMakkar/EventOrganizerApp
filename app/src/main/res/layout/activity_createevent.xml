@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/schedule_event_padding">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/schedule_event_padding">
+
+                <TextView
+                    android:id="@+id/event_name_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name_label" />
+
+                <EditText
+                    android:id="@+id/new_event_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:ems="10"
+                    android:hint="@string/name_hint"
+                    android:inputType="textPersonName"
+                    android:paddingBottom="@dimen/schedule_event_padding" />
+
+                <TextView
+                    android:id="@+id/event_location_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/location_label" />
+
+                <EditText
+                    android:id="@+id/new_event_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:ems="10"
+                    android:hint="@string/location_hint"
+                    android:inputType="textPersonName"
+                    android:paddingBottom="@dimen/schedule_event_padding" />
+
+                <Button
+                    android:id="@+id/invite_users_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/invite_users_label"
+                    style="@style/profile_button"/>
+
+                <TextView
+                    android:id="@+id/new_start_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/starts_label" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/schedule_event_padding">
+
+                    <DatePicker
+                        android:id="@+id/start_datepicker"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:calendarViewShown="false"
+                        android:datePickerMode="spinner" />
+
+                    <TimePicker
+                        android:id="@+id/start_timepicker"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:timePickerMode="spinner" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/new_end_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ends_label" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <DatePicker
+                        android:id="@+id/end_datepicker"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:calendarViewShown="false"
+                        android:datePickerMode="spinner" />
+
+                    <TimePicker
+                        android:id="@+id/end_timepicker"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:timePickerMode="spinner" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/save_event_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            style="@style/activity_bottom_button" />
+
+    </LinearLayout>
+
+</LinearLayout>
